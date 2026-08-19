@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Table</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Course Title</th>
+                <th>Short Name</th>
+                <th>Fee</th>
+                <th>Student Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="1">
+                <td>1</td>
+                <td class="course-title" >Web Dev Foundation</td>
+                <td>WDF</td>
+                <td rowspan="2">300000</td>
+                <td rowspan="2">25</td>
+            </tr>
+            <tr id="2">
+                <td>2</td>
+                <td class="course-title">Special Web Design</td>
+                <td>SWD</td>
+            </tr>
+            <tr id="3">
+                <td>3</td>
+                <td class="course-title">Web App Development</td>
+                <td>WAD</td>
+                <td>300000</td>
+                <td>12</td>
+            </tr>
+            <tr id="4">
+                <td>4</td>
+                <td class="course-title">Basic UI Design</td>
+                <td>BUD</td>
+                <td>50000</td>
+                <td>30</td>
+            </tr>
+            <tr id="5">
+                <td>5</td>
+                <td class="course-title">Premium UI Design</td>
+                <td>PUD</td>
+                <td>150000</td>
+                <td>17</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Total Student</td>
+                <td id="total-student">82</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
