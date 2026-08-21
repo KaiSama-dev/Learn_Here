@@ -1,0 +1,29 @@
+.btn{
+    padding: 10px 20px;
+    color: var(--white);
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-blue{
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+
+}
+
+.btn-pink{
+    background-color: var(--pink);
+    border: 1px solid var(--pink);
+}
+
+.btn-blue-outline{
+    color:  var(--blue);
+    border: 1px solid  var(--blue);
+    background-color: transparent;
+}
+
+.btn-pink-outline{
+    color: var(--pink);
+    border: 1px solid var(--pink);
+    background-color: transparent;
+}
