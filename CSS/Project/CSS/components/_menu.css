@@ -1,0 +1,23 @@
+.menu{
+    list-style-type: none;
+    border: 1px solid black;
+    width: 200px;
+}
+.menu-item{
+    border: 1px solid black;
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    color: var(--blue);
+}
+.menu-item:last-child{
+    border-bottom: none;
+}
+.menu-h{
+    width: 100%;
+    
+}
+.menu-h .menu-item{
+    display: inline-block;
+    border: none;
+}

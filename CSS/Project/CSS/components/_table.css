@@ -1,0 +1,31 @@
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table tr{
+
+}
+
+.table td, .table th{
+    border: 1px solid var(--blue);
+    padding: 10px 15px;
+}
+
+.table .table-blue{
+    background-color: var(--blue);
+    color: white;
+}
+
+.table .table-pink{
+    background-color: var(--pink);
+    color: white;
+}
+
+.table-hover tbody tr:hover{
+    background-color: var(--gray);
+}
+
+.table-strip tbody tr:nth-child(even){
+    background-color: var(--gray);
+}
